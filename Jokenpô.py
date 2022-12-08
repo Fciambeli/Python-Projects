@@ -23,8 +23,6 @@ if computador == 0: ##PEDRA
         print('\033[34mJOGADOR VENCE\033[m')
     elif jogador ==2:
         print('\033[31mCOMPUTADOR VENCE\033[m')
-    else:
-        print('JOGADA INVÁLIDA!')
 elif computador == 1: ##PAPEL
     if jogador == 0:
         print('\033[31mCOMPUTADOR VENCE\033[m')
@@ -32,8 +30,6 @@ elif computador == 1: ##PAPEL
         print('EMPATE')
     elif jogador == 2:
         print('\033[34mJOGADOR VENCE\033[m')
-    else:
-        print('JOGADA INVÁLIDA!')
 elif computador == 2: ##TESOURA
     if jogador == 0:
         print('\033[34mJOGADOR VENCE\033[m')
@@ -41,5 +37,3 @@ elif computador == 2: ##TESOURA
         print('\033[31mCOMPUTADOR VENCE\033[m')
     elif jogador == 2:
         print('EMPATE')
-    else:
-        print('JOGADA INVÁLIDA!')
